@@ -5,17 +5,20 @@ def line(Katz_deli)
     if Katz_deli.length == 0 
         puts "The line is currently empty."
     else  
-      #puts line order
-      index = 0 
-      line_order="The line is currently:"
-      while index < line_length do
-          line_order = line_order + " #{index+1}."+ array [index]
-        index += 1 
-      end 
-      puts line_order
-    end
-    # array
-  end
+      
+      
+      
+  #     #puts line order
+  #     index = 0 
+  #     line_order="The line is currently:"
+  #     while index < line_length do
+  #         line_order = line_order + " #{index+1}."+ array [index]
+  #       index += 1 
+  #     end 
+  #     puts line_order
+  #   end
+  #   # array
+  # end
   
   def take_a_number(array, name)
       length = array.length
