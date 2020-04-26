@@ -12,9 +12,9 @@ def line(katz_deli)
         array << "#{number}. #{customer}"
         number += 1 
       end  
+      puts "The line is currently: #{array.join(" ")}"
 end
 
-    puts "The line is currently: #{array.join(" ")}"
   end  
   
   def take_a_number(array, name)
