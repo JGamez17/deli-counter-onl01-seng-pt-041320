@@ -33,8 +33,7 @@ def line(array) #method that takes an array as parameter. If there is nobody in 
   end    
   
   def now_serving(array)
-      case array.length
-      when 0 
+      if  array.length == 0 
          puts "There is nobody waiting to be served!"
       else
          puts "Currently serving #{array[0]}."
