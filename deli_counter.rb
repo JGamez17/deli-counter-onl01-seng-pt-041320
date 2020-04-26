@@ -14,21 +14,6 @@ def line(katz_deli)
       end  
     puts "The line is currently: #{array.join(" ")}"
   end  
-        
-        # "The line is currently: 1. Logan
-      
-      
-  #     #puts line order
-  #     index = 0 
-  #     line_order="The line is currently:"
-  #     while index < line_length do
-  #         line_order = line_order + " #{index+1}."+ array [index]
-  #       index += 1 
-  #     end 
-  #     puts line_order
-  #   end
-  #   # array
-  # end
   
   def take_a_number(array, name)
       length = array.length
