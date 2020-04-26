@@ -1,9 +1,6 @@
 require 'pry'
 
-# List of customers
-katz_deli = ["logan", "Avi", "Spencer"]
-
-def line(array) #method that takes an array as parameter. If there is nobody in output "the line is empty", otherwise print the people in line
+def Katz_deli(array) 
     line_length = array.line_length
     if line_length == 0 
         puts "The line is currently empty."
