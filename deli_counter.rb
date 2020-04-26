@@ -12,6 +12,8 @@ def line(katz_deli)
         array << "#{number}. #{customer}"
         number += 1 
       end  
+end
+
     puts "The line is currently: #{array.join(" ")}"
   end  
   
