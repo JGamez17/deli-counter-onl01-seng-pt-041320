@@ -7,10 +7,10 @@ def line(katz_deli)
     else  
       array = []
       
-      num = 1 
+      number = 1 
       katz_deli.each do |customer| 
-        array << "#{num}. #{customer}"
-        num += 1 
+        array << "#{number}. #{customer}"
+        number += 1 
       end  
     puts "The line is currently: #{array.join(" ")}"
   end  
