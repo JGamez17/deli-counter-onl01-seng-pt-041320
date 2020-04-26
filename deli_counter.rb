@@ -1,8 +1,8 @@
 require 'pry'
 
-def Katz_deli(array) 
-    line_length = array.line_length
-    if line_length == 0 
+def line(Katz_deli) 
+    
+    if Katz_deli.length == 0 
         puts "The line is currently empty."
     else  
       #puts line order
