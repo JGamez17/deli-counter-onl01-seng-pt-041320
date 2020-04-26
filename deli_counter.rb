@@ -5,7 +5,11 @@ def line(Katz_deli)
     if Katz_deli.length == 0 
         puts "The line is currently empty."
     else  
+      array = []
       
+      num = 1 
+      Katz_deli.each do |customer| 
+        array << #{
       
       
   #     #puts line order
