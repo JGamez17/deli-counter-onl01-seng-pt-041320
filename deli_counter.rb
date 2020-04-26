@@ -9,7 +9,13 @@ def line(Katz_deli)
       
       num = 1 
       Katz_deli.each do |customer| 
-        array << #{
+        array << "#{num}. #{customer}"
+        num += 1 
+      end  
+    puts "The line is currently: #{array.join(" ")}"
+  end  
+        
+        # "The line is currently: 1. Logan
       
       
   #     #puts line order
