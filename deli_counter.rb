@@ -8,7 +8,7 @@ def line(katz_deli)
       array = []
       
       num = 1 
-      Katz_deli.each do |customer| 
+      katz_deli.each do |customer| 
         array << "#{num}. #{customer}"
         num += 1 
       end  
